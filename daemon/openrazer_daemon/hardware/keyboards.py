@@ -633,7 +633,7 @@ class RazerBladeProLate2016(_MacroKeyboard):
 
 class RazerBladeLate2016(_MacroKeyboard):
     """
-    Class for the Razer Blade Pro (Late 2016)
+    Class for the Razer Blade (Late 2016)
     """
     EVENT_FILE_REGEX = re.compile(r'.*Razer_Blade(-if01)?-event-kbd')
 
@@ -641,7 +641,7 @@ class RazerBladeLate2016(_MacroKeyboard):
     USB_PID = 0x0224
     HAS_MATRIX = True
     DEDICATED_MACRO_KEYS = False
-    MATRIX_DIMS = [6, 15]  # 6 Rows, 22 Cols
+    MATRIX_DIMS = [6, 16]  # 6 Rows, 16 Cols
     METHODS = ['get_firmware', 'get_matrix_dims', 'has_matrix', 'get_device_name', 'get_device_type_keyboard', 'get_brightness', 'set_brightness', 'set_wave_effect', 'set_static_effect', 'set_spectrum_effect',
                'set_reactive_effect', 'set_none_effect', 'set_breath_random_effect', 'set_breath_single_effect', 'set_breath_dual_effect',
                'set_custom_effect', 'set_key_row', 'set_starlight_random_effect',
